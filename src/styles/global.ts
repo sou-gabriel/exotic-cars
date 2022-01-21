@@ -29,4 +29,11 @@ export const GlobalStyle = createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+  button, input {
+    font-family: inherit;
+    outline: transparent;
+    border: none;
+    background-color: transparent;
+  }
 `
