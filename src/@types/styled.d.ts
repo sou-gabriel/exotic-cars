@@ -12,6 +12,8 @@ declare module 'styled-components' {
       authButton: string,
       searchButtonBackground: string,
       carouselButtonBackground: string,
+      carCardBackground: string,
+      bulletsBackground: string
     }
   }
 }

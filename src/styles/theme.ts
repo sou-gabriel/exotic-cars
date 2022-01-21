@@ -11,5 +11,7 @@ export const theme: DefaultTheme = {
     authButton: '#7B89F4',
     searchButtonBackground: '#00000014',
     carouselButtonBackground: '#00000029',
+    carCardBackground: '#F8F8FA',
+    bulletsBackground: '#C8C8CA',
   },
 }
