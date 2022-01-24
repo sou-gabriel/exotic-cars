@@ -44,7 +44,8 @@
     "lint:fix": "yarn lint --fix",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "server": "json-server --watch --port 3333 src/mocks/server.json"
   },
   "browserslist": {
     "production": [
