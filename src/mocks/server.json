@@ -1,0 +1,116 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "brand": "Ferrari",
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
+      "pricePerDay": 725
+    },
+    {
+      "id": "2",
+      "brand": "Porshe",
+      "model": "911 Turbo S",
+      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "3",
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "4",
+      "brand": "Ferrari",
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
+      "pricePerDay": 725
+    },
+    {
+      "id": "5",
+      "brand": "Porshe",
+      "model": "911 Turbo S",
+      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "6",
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "7",
+      "brand": "Ferrari",
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
+      "pricePerDay": 725
+    },
+    {
+      "id": "8",
+      "brand": "Porshe",
+      "model": "911 Turbo S",
+      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "9",
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "10",
+      "brand": "Ferrari",
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
+      "pricePerDay": 725
+    },
+    {
+      "id": "11",
+      "brand": "Porshe",
+      "model": "911 Turbo S",
+      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "12",
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "13",
+      "brand": "Ferrari",
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
+      "pricePerDay": 725
+    },
+    {
+      "id": "14",
+      "brand": "Porshe",
+      "model": "911 Turbo S",
+      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "15",
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
+      "pricePerDay": 825
+    },
+    {
+      "id": "16",
+      "brand": "Ferrari",
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
+      "pricePerDay": 725
+    }
+  ]
+}
