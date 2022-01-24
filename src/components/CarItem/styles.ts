@@ -1,10 +1,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.li`
-  width: 17.9375rem;
   padding: 1.4375rem 1rem 1.3125rem;
   border-radius: 1.25rem;
-  background: ${({ theme }) => theme.colors.carCardBackground} 0% 0% no-repeat padding-box;
+  outline: 2px solid transparent;
+  background: ${({ theme }) =>
+    theme.colors.carCardBackground} 0% 0% no-repeat padding-box;
+  transition: all 100ms ease-in-out;
+
+  &:hover {
+    outline-color: ${({ theme }) => theme.colors.carouselButtonBackground}
+  }
 `
 
 export const Header = styled.header`
@@ -37,8 +43,13 @@ export const Bullet = styled.span`
   width: 0.375rem;
   height: 0.375rem;
   border-radius: 999px;
-  background: ${({ theme }) => theme.colors.bulletsBackground} 0% 0% no-repeat padding-box;
+  background: ${({ theme }) =>
+    theme.colors.bulletsBackground} 0% 0% no-repeat padding-box;
   opacity: 0.64;
+`
+
+export const Image = styled.img`
+  max-width: 100%;
 `
 
 export const Price = styled.p`
@@ -53,6 +64,4 @@ export const Price = styled.p`
       font-size: 0.875rem;
     }
   }
-
-
 `

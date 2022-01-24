@@ -5,23 +5,26 @@ import {
   Model,
   DetailsButton,
   Bullet,
+  Image,
   Price,
 } from './styles'
 
 type Props = {
-  brand: string
-  model: string
-  image: string
-  pricePerDay: number
+  car: {
+    brand: string
+    model: string
+    image: string
+    pricePerDay: number
+  }
 }
 
-export const CarItem = ({ brand, model, image, pricePerDay }: Props) => {
+export const CarItem = ({ car }: Props) => {
   return (
     <Container>
       <Header>
         <div>
-          <Brand>{brand}</Brand>
-          <Model>{model}</Model>
+          <Brand>{car.brand}</Brand>
+          <Model>{car.model}</Model>
         </div>
 
         <DetailsButton>
@@ -31,11 +34,11 @@ export const CarItem = ({ brand, model, image, pricePerDay }: Props) => {
         </DetailsButton>
       </Header>
 
-      <img src={image} alt={`${brand} - ${model}`} />
+      <Image src={car.image} alt={`${car.brand} - ${car.model}`} />
 
       <Price>
         <strong>
-          <sup>$</sup>{pricePerDay}
+          <sup>$</sup>{car.pricePerDay}
         </strong>
         <sub>/day</sub>
       </Price>
