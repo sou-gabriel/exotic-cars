@@ -9,30 +9,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -45,30 +36,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -81,30 +63,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -117,30 +90,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -153,30 +117,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -189,30 +144,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -225,30 +171,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -261,30 +198,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -297,30 +225,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -333,30 +252,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -369,30 +279,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -405,30 +306,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -441,30 +333,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -477,30 +360,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -513,30 +387,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     },
@@ -549,30 +414,21 @@
       "model": "California",
       "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
       "pricePerDay": 725,
-      "carousel": [
+      "colors": [
         {
           "id": "01",
           "color": "red",
-          "image": {
-            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
-            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
-          }
+          "image": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
         },
         {
           "id": "02",
           "color": "yellow",
-          "image": {
-            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
-            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
-          }
+          "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png"
         },
         {
           "id": "03",
           "color": "gray",
-          "image": {
-            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
-            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
-          }
+          "image": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png"
         }
       ]
     }
