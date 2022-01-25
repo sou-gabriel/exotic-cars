@@ -9,9 +9,11 @@ import { theme } from 'styles/theme'
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
+    <BrowserRouter>
       <CarsProvider>
-    <App />
+        <App />
       </CarsProvider>
+    </BrowserRouter>
     <GlobalStyle />
   </ThemeProvider>,
   document.querySelector('#root'),
