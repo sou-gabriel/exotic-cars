@@ -1,8 +1,7 @@
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 import { useTheme } from 'styled-components'
 
-import { Car } from 'context/CarsContext'
-
+import { ICar } from 'shared/types'
 import {
   Container,
   ActionButton,

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import { ICar } from 'context/CarsContext'
-
+import { ICar } from 'shared/types'
 import {
   Container,
   Header,
