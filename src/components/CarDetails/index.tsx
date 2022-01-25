@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 import { useTheme } from 'styled-components'
 
@@ -20,11 +20,16 @@ import {
 } from './styles'
 
 export const CarDetails = () => {
+  const navigate = useNavigate()
   const cars = useContext(CarsContext)
   const { carId } = useParams()
   const activeCar = cars.find(car => car.id === carId)
 
   const theme = useTheme()
+
+  const handleGoBack = () => {
+    navigate('/')
+  }
 
   if (activeCar === undefined) {
     return <h1>Loading...</h1>
@@ -43,7 +48,7 @@ export const CarDetails = () => {
 
         <Preview>
           <Top>
-            <NavigationButton isFill={false}>
+            <NavigationButton isFill={false} onClick={handleGoBack}>
               <BsArrowLeft size={24} color={theme.colors.title} />
               Back to catalog
             </NavigationButton>
