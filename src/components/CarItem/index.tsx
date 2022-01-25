@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import { Car } from 'context/CarsContext'
 
 import {
@@ -18,6 +20,7 @@ type CartItemProps = {
 export const CarItem = ({ car }: CartItemProps) => {
   return (
     <Container>
+      <Link to={`/car/${car.id}`}>
         <Header>
           <div>
             <Brand>{car.brand.name}</Brand>
@@ -39,6 +42,7 @@ export const CarItem = ({ car }: CartItemProps) => {
           </strong>
           <sub>/day</sub>
         </Price>
+      </Link>
     </Container>
   )
 }
