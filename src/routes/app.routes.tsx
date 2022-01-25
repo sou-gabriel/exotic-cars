@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom'
 
-import { Showcase } from 'components/Showcase'
+import { Catalog } from 'components/Catalog'
 import { CarDetails } from 'components/CarDetails'
 
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route path='/' element={<Showcase />} />
+      <Route path='/' element={<Catalog />} />
       <Route path='/car/:carId' element={<CarDetails />} />
     </Routes>
   )
