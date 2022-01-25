@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import { Car } from 'context/CarsContext'
+import { ICar } from 'context/CarsContext'
 
 import {
   Container,
@@ -13,11 +13,11 @@ import {
   Price,
 } from './styles'
 
-type CartItemProps = {
-  car: Car
+interface ICartItemProps {
+  car: ICar
 }
 
-export const CarItem = ({ car }: CartItemProps) => {
+export const CarItem = ({ car }: ICartItemProps) => {
   return (
     <Container>
       <Link to={`/car/${car.id}`}>

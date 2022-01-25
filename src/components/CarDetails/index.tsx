@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 import { useTheme } from 'styled-components'
 
-import { CarsContext } from 'context/CarsContext'
+import { ICar } from 'context/CarsContext'
 import { CarColorCarousel } from 'components/CarsColorCarousel'
 import {
   Container,
