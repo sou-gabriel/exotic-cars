@@ -1,116 +1,580 @@
 {
   "cars": [
     {
-      "id": "1",
-      "brand": "Ferrari",
+      "id": "01",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
       "model": "California",
-      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
-      "pricePerDay": 725
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
-      "id": "2",
-      "brand": "Porshe",
-      "model": "911 Turbo S",
-      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
-      "pricePerDay": 825
-    },
-    {
-      "id": "3",
-      "brand": "Mercedes-benz",
-      "model": "AMG GTS",
-      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
-      "pricePerDay": 825
-    },
-    {
-      "id": "4",
-      "brand": "Ferrari",
+      "id": "02",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
       "model": "California",
-      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
-      "pricePerDay": 725
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
-      "id": "5",
-      "brand": "Porshe",
-      "model": "911 Turbo S",
-      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
-      "pricePerDay": 825
-    },
-    {
-      "id": "6",
-      "brand": "Mercedes-benz",
-      "model": "AMG GTS",
-      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
-      "pricePerDay": 825
-    },
-    {
-      "id": "7",
-      "brand": "Ferrari",
+      "id": "03",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
       "model": "California",
-      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
-      "pricePerDay": 725
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
-      "id": "8",
-      "brand": "Porshe",
-      "model": "911 Turbo S",
-      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
-      "pricePerDay": 825
+      "id": "04",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
-      "id": "9",
-      "brand": "Mercedes-benz",
-      "model": "AMG GTS",
-      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
-      "pricePerDay": 825
+      "id": "05",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
       "id": "10",
-      "brand": "Ferrari",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
       "model": "California",
-      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
-      "pricePerDay": 725
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
       "id": "11",
-      "brand": "Porshe",
-      "model": "911 Turbo S",
-      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
-      "pricePerDay": 825
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
       "id": "12",
-      "brand": "Mercedes-benz",
-      "model": "AMG GTS",
-      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
-      "pricePerDay": 825
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
       "id": "13",
-      "brand": "Ferrari",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
       "model": "California",
-      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
-      "pricePerDay": 725
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
       "id": "14",
-      "brand": "Porshe",
-      "model": "911 Turbo S",
-      "image": "https://i.ibb.co/vDZvcjh/No-Path-Copia-16.png",
-      "pricePerDay": 825
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
       "id": "15",
-      "brand": "Mercedes-benz",
-      "model": "AMG GTS",
-      "image": "https://i.ibb.co/8cDC9z7/Mask-Group-5.png",
-      "pricePerDay": 825
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
+      "model": "California",
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     },
     {
       "id": "16",
-      "brand": "Ferrari",
+      "brand": {
+        "name": "Ferrari",
+        "image": "https://i.ibb.co/logo-ferrari.png"
+      },
       "model": "California",
-      "image": "https://i.ibb.co/Vw5Rqmc/Mask-Group-11.png",
-      "pricePerDay": 725
+      "image": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+      "pricePerDay": 725,
+      "carousel": [
+        {
+          "id": "01",
+          "color": "red",
+          "image": {
+            "larger": "https://i.ibb.co/n7nYjbF/ferrari-red@2x.png",
+            "small": "https://i.ibb.co/n7nYjbF/ferrari-red@1x.png"
+          }
+        },
+        {
+          "id": "02",
+          "color": "yellow",
+          "image": {
+            "small": "https://i.ibb.co/3Tk6X1j/ferrari-yellow@1x.png",
+            "larger": "https://i.ibb.co/wrdh5Mv/ferrari-yellow@2x.png"
+          }
+        },
+        {
+          "id": "03",
+          "color": "gray",
+          "image": {
+            "small": "https://i.ibb.co/7WRMRPT/ferrari-gray@1x.png",
+            "larger": "https://i.ibb.co/nbFw8GK/ferrari-gray@2x.png"
+          }
+        }
+      ]
     }
   ]
 }
