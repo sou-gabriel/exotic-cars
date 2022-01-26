@@ -8,6 +8,10 @@ export const Container = styled.form`
   padding: 0 0.1875rem 0.1875rem 1.6875rem;
   border-radius: 1.125rem;
   background: rgba(243, 241, 252, 0.69) 0% 0% no-repeat padding-box;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `
 
 export const Content = styled.div`

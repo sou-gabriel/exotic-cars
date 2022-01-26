@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { RiMenu3Fill, RiCloseLine } from 'react-icons/ri'
 
 import { Link } from 'react-router-dom'
 
@@ -37,17 +38,40 @@ export const Navigation = styled.nav`
   align-items: center;
 `
 
-export const SignUpButton = styled(Link)`
-  font-weight: bold;
+export const DefaultLinkStyle = styled(Link)`
+  font-weight: 710;
   font-size: 1rem;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+`
+
+export const SignUpButton = styled(DefaultLinkStyle)`
   color: ${({ theme }) => theme.colors.authButton};
 `
 
-export const SignInButton = styled(Link)`
+export const SignInButton = styled(DefaultLinkStyle)`
   padding: 0.4375rem 1rem;
   border: 2px solid ${({ theme }) => theme.colors.authButton};
   border-radius: 0.8125rem;
-  font-weight: bold;
-  font-size: 1rem;
   color: ${({ theme }) => theme.colors.authButton};
+`
+
+export const MenuButton = styled.button`
+  display: none;
+
+  @media (max-width: 900px) {
+    display: block;
+  }
+`
+
+export const IconOpenMenu = styled(RiMenu3Fill)`
+  font-size: 24px;
+  color: ${({ theme }) => theme.colors.title};
+`
+
+export const IconCloseMenu = styled(RiCloseLine)`
+  font-size: 24px;
+  color: ${({ theme }) => theme.colors.title};
 `
