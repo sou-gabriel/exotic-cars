@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', 'Helvetica Neue', 'Helvetica', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
