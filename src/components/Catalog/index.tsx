@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import { api } from 'services/api'
 import { ICar } from 'shared/types'
-import { CarItem } from 'components/CarItem'
+import { CarCard } from 'components/CarCard'
 import { Spinner } from 'components/Spinner'
 import * as S from './styles'
 
