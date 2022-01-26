@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 import { useTheme } from 'styled-components'
 
+import { Spinner } from '../Spinner'
 import { ICar } from 'shared/types'
 import { CarColorCarousel } from 'components/CarsColorCarousel'
 import {
@@ -20,24 +21,30 @@ import {
 } from './styles'
 
 export const CarDetails = () => {
-  const navigate = useNavigate()
-  const cars = useContext(CarsContext)
-  const { carId } = useParams()
-  const activeCar = cars.find(car => car.id === carId)
+  const [isActiveCarLoading, setIsActiveCarLoading] = useState(true)
+    let timerId: ReturnType<typeof setTimeout>
 
-  const theme = useTheme()
+      timerId = setTimeout(() => {
+        setIsActiveCarLoading(false)
+      }, 100)
+    })
 
-  const handleGoBack = () => {
-    navigate('/')
-  }
-
-  if (activeCar === undefined) {
-    return <h1>Loading...</h1>
-  }
+    return () => clearTimeout(timerId)
 
   return (
-    <Container>
-      <div>
+    <S.Container>
+      {isActiveCarLoading
+        ? (
+          <Spinner />
+          )
+        : (
+          <>
+            <S.Heading>
+              <S.BrandImage
+                src={activeCar.brand.logo}
+                alt={activeCar.brand.name}
+              />
+              <div>
         <Heading>
           <Logo src={activeCar.brand.image} alt={activeCar.brand.name} />
           <div>
