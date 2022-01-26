@@ -31,7 +31,7 @@ export const CarItem = ({ car }: ICartItemProps) => {
         </S.Heading>
 
         <S.CarSideImage
-          src={car.image}
+          src={car.face}
           alt={`${car.brand.name} - ${car.model}`}
         />
 

@@ -26,13 +26,14 @@ export const Heading = styled.header`
 `
 
 export const Brand = styled.strong`
+  display: block;
   font-size: 1.0625rem;
-  line-height: 0;
+  text-align: left;
   color: ${({ theme }) => theme.colors.title};
 `
 
 export const Model = styled.p`
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.375rem;
   color: ${({ theme }) => theme.colors.title};
   text-transform: uppercase;
