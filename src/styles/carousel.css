@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.swiper-slide {
+  margin-left: 0;
+}
+
 .slider-item {
   flex-grow: 1;
   height: 100%;

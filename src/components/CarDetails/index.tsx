@@ -42,7 +42,7 @@ export const CarDetails = () => {
               />
               <div>
                 <S.Title>
-                  {activeCar.brand.name} {activeCar.model}
+                  <span>{activeCar.brand.name}</span> {activeCar.model}
                 </S.Title>
                 <S.Price>${activeCar.pricePerDay}/day</S.Price>
               </div>

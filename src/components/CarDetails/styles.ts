@@ -4,19 +4,24 @@ import { Link } from 'react-router-dom'
 export const Container = styled.section``
 
 export const Heading = styled.header`
+  margin-bottom: 0.5rem;
+
   display: flex;
   gap: 2.4375rem;
   align-items: center;
 
-  h1 {
-    font-size: 3.125rem;
-    line-height: 4.1875rem;
-    color: ${({ theme }) => theme.colors.title};
+  @media (min-width: 280px) {
+    margin-bottom: 2rem;
+    gap: 1.5rem;
   }
 `
 
 export const BrandImage = styled.img`
   width: 5.6875rem;
+
+  @media (min-width: 280px) {
+    width: 4.5rem;
+  }
 `
 
 export const Title = styled.h1`
@@ -24,6 +29,14 @@ export const Title = styled.h1`
   font-size: 3.125rem;
   line-height: 4.1875rem;
   color: ${({ theme }) => theme.colors.title};
+
+  @media (min-width: 280px) {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2rem;
+    line-height: initial;
+  }
 `
 
 export const Price = styled.p`
@@ -31,6 +44,10 @@ export const Price = styled.p`
   font-size: 2.5rem;
   line-height: 3.3125rem;
   color: ${({ theme }) => theme.colors.title};
+
+  @media (min-width: 280px) {
+    font-size: 1.5rem;
+  }
 `
 
 export const Content = styled.div`
@@ -42,6 +59,10 @@ export const Flex = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 922px) {
+    flex-direction: column;
+  }
 `
 
 export const RedirectLink = styled(Link)`
@@ -76,11 +97,19 @@ export const CarColorImageContainer = styled.div`
   display: flex;
   align-items: center;
   flex-shrink: 1;
+
+  @media (min-width: 280px) {
+    height: initial
+  }
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `
 
 export const CarColorImage = styled.img`
   width 100%;
-  min-width: 500px;
+  flex-shrink: 1;
 `
 
 export const Label = styled.div`
@@ -88,6 +117,11 @@ export const Label = styled.div`
   text-align: center;
   align-self: flex-start;
   text-transform: capitalize;
+
+  @media (min-width: 280px) {
+    margin-top: -2rem;
+    margin-bottom: 1.4rem;
+  }
 `
 
 export const Numbering = styled.strong`

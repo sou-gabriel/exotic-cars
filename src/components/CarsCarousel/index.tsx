@@ -32,7 +32,7 @@ export const CarsCarousel = ({ activeCar, setActiveColorIndex }: ICarsCarouselPr
 
       <Swiper
         modules={[Navigation]}
-        spaceBetween={16}
+        spaceBetween={1}
         slidesPerView={3}
         centeredSlides
         roundLengths
