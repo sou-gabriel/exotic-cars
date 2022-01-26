@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react'
 
 import { api } from 'services/api'
+
 import { ICar } from 'shared/types'
+
 import { CarCard } from 'components/CarCard'
 import { Spinner } from 'components/Spinner'
+import { ReactComponent as UpIcon } from 'assets/icons/up.svg'
+
 import * as S from './styles'
 
 export const Catalog = () => {
@@ -23,19 +27,32 @@ export const Catalog = () => {
     return () => clearTimeout(timerId)
   }, [])
 
+  const handleScrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    })
+  }
+
+  if (isLoading) {
+    return (
+      <S.Container>
+        <Spinner />
+      </S.Container>
+    )
+  }
+
   return (
     <S.Container>
-      {isLoading
-        ? (
-          <Spinner />
-          )
-        : (
-          <S.Content>
-            {cars.map((car) => (
-              <CarItem key={car.id} car={car} />
-            ))}
-          </S.Content>
-          )}
+      <S.Content>
+        {cars.map((car) => (
+          <CarCard key={car.id} car={car} />
+        ))}
+        <S.ScrollTopButton onClick={handleScrollUp}>
+          <UpIcon />
+        </S.ScrollTopButton>
+      </S.Content>
     </S.Container>
   )
 }
