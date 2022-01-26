@@ -1,28 +1,23 @@
-import { useContext } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
-import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
-import { useTheme } from 'styled-components'
+import { CarsCarousel } from 'components/CarsCarousel'
+import { useEffect, useState } from 'react'
+import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 
+import { api } from 'services/api'
 import { Spinner } from '../Spinner'
 import { ICar } from 'shared/types'
-import { CarColorCarousel } from 'components/CarsColorCarousel'
-import {
-  Container,
-  Heading,
-  Logo, Model,
-  Price,
-  Preview,
-  Top,
-  Bottom,
-  NavigationButton,
-  Image,
-  Data,
-  Color,
-} from './styles'
+import * as S from './styles'
 
 export const CarDetails = () => {
+  const [activeCar, setActiveCar] = useState<ICar>({} as ICar)
   const [isActiveCarLoading, setIsActiveCarLoading] = useState(true)
+  const [activeColorIndex, setActiveColorIndex] = useState(0)
+
+  useEffect(() => {
+    const activeCarId = sessionStorage.getItem('activeCarId')
     let timerId: ReturnType<typeof setTimeout>
+
+    api.get<ICar>(`/cars/${activeCarId}`).then((response) => {
+      setActiveCar(response.data)
 
       timerId = setTimeout(() => {
         setIsActiveCarLoading(false)
@@ -30,6 +25,7 @@ export const CarDetails = () => {
     })
 
     return () => clearTimeout(timerId)
+  }, [])
 
   return (
     <S.Container>
@@ -45,40 +41,48 @@ export const CarDetails = () => {
                 alt={activeCar.brand.name}
               />
               <div>
-        <Heading>
-          <Logo src={activeCar.brand.image} alt={activeCar.brand.name} />
-          <div>
-            <Model>{activeCar.brand.name} {activeCar.model}</Model>
-            <Price>${activeCar.pricePerDay}/day</Price>
-          </div>
-        </Heading>
+                <S.Title>
+                  {activeCar.brand.name} {activeCar.model}
+                </S.Title>
+                <S.Price>${activeCar.pricePerDay}/day</S.Price>
+              </div>
+            </S.Heading>
 
-        <Preview>
-          <Top>
-            <NavigationButton isFill={false} onClick={handleGoBack}>
-              <BsArrowLeft size={24} color={theme.colors.title} />
-              Back to catalog
-            </NavigationButton>
-            <Image
-              src={activeCar.carousel[0].image.larger}
-              alt={activeCar.model}
+            <S.Content>
+              <S.Flex>
+                <S.RedirectLink to='/'>
+                  <BsArrowLeft size={24} color='#313136' />
+                  Back to catalog
+                </S.RedirectLink>
+
+                <S.CarColorImageContainer>
+                  <S.CarColorImage
+                    src={activeCar.colors[activeColorIndex].image}
+                    alt={activeCar.model}
+                  />
+                </S.CarColorImageContainer>
+
+                <S.Label>
+                  <S.Numbering>
+                    {activeColorIndex <= 9
+                      ? `0${activeColorIndex + 1}`
+                      : activeColorIndex + 1}
+                  </S.Numbering>
+                  <S.Color>{activeCar.colors[activeColorIndex].color}</S.Color>
+                </S.Label>
+              </S.Flex>
+              <S.RedirectLink to='#' className='highlight'>
+                Book now
+                <BsArrowRight size={24} color='#fff' />
+              </S.RedirectLink>
+            </S.Content>
+
+            <CarsCarousel
+              activeCar={activeCar}
+              setActiveColorIndex={setActiveColorIndex}
             />
-            <Data>
-              <strong>{activeCar.carousel[0].id}</strong>
-              <Color>{activeCar.carousel[0].color}</Color>
-            </Data>
-          </Top>
-
-          <Bottom>
-            <NavigationButton isFill>
-              Book now
-              <BsArrowRight size={24} color={theme.colors.shape} />
-            </NavigationButton>
-          </Bottom>
-        </Preview>
-      </div>
-
-      <CarColorCarousel car={activeCar} />
-    </Container>
+          </>
+          )}
+    </S.Container>
   )
 }
