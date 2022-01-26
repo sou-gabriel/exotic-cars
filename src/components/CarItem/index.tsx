@@ -1,47 +1,47 @@
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import { ICar } from 'shared/types'
-import {
-  Container,
-  Header,
-  Brand,
-  Model,
-  DetailsButton,
-  Bullet,
-  Image,
-  Price,
-} from './styles'
-
+import * as S from './styles'
 interface ICartItemProps {
   car: ICar
 }
 
 export const CarItem = ({ car }: ICartItemProps) => {
+  const navigate = useNavigate()
+
+  const handleRedirect = () => {
+    sessionStorage.setItem('activeCarId', car.id)
+    navigate(`/car/${car.id}`)
+  }
+
   return (
-    <Container>
-      <Link to={`/car/${car.id}`}>
-        <Header>
+    <S.Container>
+      <S.RedirectButton onClick={handleRedirect}>
+        <S.Heading>
           <div>
-            <Brand>{car.brand.name}</Brand>
-            <Model>{car.model}</Model>
+            <S.Brand>{car.brand.name}</S.Brand>
+            <S.Model>{car.model}</S.Model>
           </div>
 
-          <DetailsButton>
-            <Bullet />
-            <Bullet />
-            <Bullet />
-          </DetailsButton>
-        </Header>
+          <S.BulletsContainer>
+            <S.Bullet />
+            <S.Bullet />
+            <S.Bullet />
+          </S.BulletsContainer>
+        </S.Heading>
 
-        <Image src={car.image} alt={`${car.brand.name} - ${car.model}`} />
+        <S.CarSideImage
+          src={car.image}
+          alt={`${car.brand.name} - ${car.model}`}
+        />
 
-        <Price>
+        <S.Price>
           <strong>
             <sup>$</sup>{car.pricePerDay}
           </strong>
           <sub>/day</sub>
-        </Price>
-      </Link>
-    </Container>
+        </S.Price>
+      </S.RedirectButton>
+    </S.Container>
   )
 }

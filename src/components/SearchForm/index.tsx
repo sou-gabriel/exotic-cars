@@ -2,37 +2,35 @@ import { ReactComponent as LocationIcon } from 'assets/icons/location.svg'
 import { ReactComponent as CalendarIcon } from 'assets/icons/calendar.svg'
 import { ReactComponent as SearchIcon } from 'assets/icons/search.svg'
 
-import {
-  Container,
-  Fieldset,
-  InputGroup,
-  Input,
-  SubmitButton,
-} from './styles'
+import * as S from './styles'
 
 export const SearchForm = () => {
   return (
-    <Container onSubmit={() => {}}>
-      <Fieldset>
-        <InputGroup>
+    <S.Container onSubmit={() => {}}>
+      <S.Content>
+        <S.InputGroup>
           <LocationIcon />
-          <Input type='text' placeholder='North Carolina, NC 90025' />
-        </InputGroup>
+          <S.Input
+            type='text'
+            placeholder='North Carolina, NC 90025'
+            readOnly
+          />
+        </S.InputGroup>
 
-        <InputGroup>
+        <S.InputGroup>
           <CalendarIcon />
-          <Input type='text' placeholder='11/03/2021' />
-        </InputGroup>
+          <S.Input type='text' placeholder='11/03/2021' readOnly />
+        </S.InputGroup>
 
-        <InputGroup>
+        <S.InputGroup>
           <CalendarIcon />
-          <Input type='text' placeholder='12/12/2021' />
-        </InputGroup>
-      </Fieldset>
+          <S.Input type='text' placeholder='12/12/2021' readOnly />
+        </S.InputGroup>
+      </S.Content>
 
-      <SubmitButton>
+      <S.SubmitButton>
         <SearchIcon />
-      </SubmitButton>
-    </Container>
+      </S.SubmitButton>
+    </S.Container>
   )
 }

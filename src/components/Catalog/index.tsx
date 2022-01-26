@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { api } from 'services/api'
 import { ICar } from 'shared/types'
 import { CarItem } from 'components/CarItem'
-import { Container, Content } from './styles'
+import * as S from './styles'
 
 export const Catalog = () => {
   const [cars, setCars] = useState<ICar[]>([])
@@ -16,10 +16,10 @@ export const Catalog = () => {
   }, [])
 
   return (
-    <Container>
-      <Content>
+    <S.Container>
+      <S.Content>
         {cars.map(car => <CarItem key={car.id} car={car} />)}
-      </Content>
-    </Container>
+      </S.Content>
+    </S.Container>
   )
 }

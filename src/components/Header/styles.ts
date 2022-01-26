@@ -1,19 +1,23 @@
 import styled from 'styled-components'
 
+import { Link } from 'react-router-dom'
+
 export const Container = styled.header`
-  padding: 1.625rem 0.5rem 1.5625rem;
+  height: 5.625rem;
+  padding: 1.625rem 0;
   box-shadow: 0 10px 30px ${({ theme }) => theme.colors.shadow};
 `
 
-export const InnerContainer = styled.div`
+export const Content = styled.div`
   max-width: 1220px;
   margin: 0 auto;
+  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `
 
-export const Title = styled.strong`
+export const Logo = styled.strong`
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.96px;
@@ -27,18 +31,19 @@ export const Title = styled.strong`
   }
 `
 
-export const AuthButtons = styled.div`
+export const Navigation = styled.nav`
   display: flex;
   gap: 1.75rem;
+  align-items: center;
 `
 
-export const SignUpButton = styled.button`
+export const SignUpButton = styled(Link)`
   font-weight: bold;
   font-size: 1rem;
   color: ${({ theme }) => theme.colors.authButton};
 `
 
-export const SignInButton = styled.button`
+export const SignInButton = styled(Link)`
   padding: 0.4375rem 1rem;
   border: 2px solid ${({ theme }) => theme.colors.authButton};
   border-radius: 0.8125rem;

@@ -10,7 +10,7 @@ export const Container = styled.form`
   background: rgba(243, 241, 252, 0.69) 0% 0% no-repeat padding-box;
 `
 
-export const Fieldset = styled.fieldset`
+export const Content = styled.div`
   height: 100%;
   padding-top: 0.375rem;
   border: none;
@@ -41,14 +41,10 @@ export const InputGroup = styled.div`
 `
 
 export const Input = styled.input`
-  font-weight: 600;
+  font-weight: bold;
   font-size: 0.75rem;
-  letter-spacing: 0.3px;
-  color: ${({ theme }) => theme.colors.text};
-
-  &::placeholder {
-    opacity: 0.69;
-  }
+  letter-spacing: 0.021875rem;
+  color: ${({ theme }) => theme.colors.title};
 `
 
 export const SubmitButton = styled.button`

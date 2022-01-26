@@ -1,19 +1,24 @@
 import styled from 'styled-components'
 
 export const Container = styled.li`
-  padding: 1.4375rem 1rem 1.3125rem;
+  width: 17.9375rem;
+  height: 239px;
   border-radius: 1.25rem;
   outline: 2px solid transparent;
   background: ${({ theme }) =>
     theme.colors.carCardBackground} 0% 0% no-repeat padding-box;
-  transition: all 100ms ease-in-out;
+  transition: all 120ms ease-in-out;
 
   &:hover {
-    outline-color: ${({ theme }) => theme.colors.carouselButtonBackground}
+    transform: translateY(-0.15rem);
   }
 `
 
-export const Header = styled.header`
+export const RedirectButton = styled.button`
+  padding: 1.4375rem 1rem 1.3125rem;
+`
+
+export const Heading = styled.header`
   margin-bottom: 0.375rem;
   display: flex;
   justify-content: space-between;
@@ -33,7 +38,7 @@ export const Model = styled.p`
   text-transform: uppercase;
 `
 
-export const DetailsButton = styled.button`
+export const BulletsContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 2px;
@@ -48,8 +53,10 @@ export const Bullet = styled.span`
   opacity: 0.64;
 `
 
-export const Image = styled.img`
+export const CarSideImage = styled.img`
   max-width: 100%;
+  width: 244px;
+  height: ;
 `
 
 export const Price = styled.p`
