@@ -54,7 +54,7 @@ export const CarCard = styled.div<ISliderProps>`
 
 export const CarImage = styled.img<ISliderProps>`
   width: 100%;
-  margin-left: 2.625rem;
+  margin-left: 2rem;
 
   @media (max-width: 655px) {
     margin-left: 0.5rem;
