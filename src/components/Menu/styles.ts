@@ -17,19 +17,20 @@ export const Container = styled.div`
   background-color: #7B89F4;
 
   width: 100%;
-  height: 100%;
+  height: 7.5rem;
 
   border-radius: 0px 0 0 8px;
 
   position: absolute;
   right: 0;
   top: 5.625rem;
+  bottom: 0;
   z-index: 10000;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 
   animation: ${appear} 200ms ease-in-out;

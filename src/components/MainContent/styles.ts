@@ -1,7 +1,13 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const Container = styled.main`
-  height: calc(100vh - 5.625rem);
+interface IContainerProps {
+  isActiveMenu: boolean
+}
+
+export const Container = styled.main<IContainerProps>`
+  ${({ isActiveMenu }) => isActiveMenu && css`
+    filter: blur(2px);
+  `}
 `
 
 export const Content = styled.div`

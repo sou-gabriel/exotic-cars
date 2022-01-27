@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import { Dispatch, SetStateAction } from 'react'
 
 import { SearchForm } from 'components/SearchForm'
 import { Menu } from 'components/Menu'
 import * as S from './styles'
 
-export const Header = () => {
-  const [menuIsOpen, setMenuIsOpen] = useState(false)
+interface IHeaderProps {
+  menuIsOpen: boolean
+  setMenuIsOpen: Dispatch<SetStateAction<boolean>>
+}
 
+export const Header = ({ menuIsOpen, setMenuIsOpen }: IHeaderProps) => {
   return (
     <S.Container>
       <S.Content>
