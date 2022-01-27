@@ -10,18 +10,16 @@ export const Heading = styled.header`
   gap: 2.4375rem;
   align-items: center;
 
-  @media (min-width: 280px) {
+  @media (max-width: 425px) {
     margin-bottom: 2rem;
-    gap: 1.5rem;
+
+    flex-direction: column;
+    gap: 1rem;
   }
 `
 
 export const BrandImage = styled.img`
-  width: 5.6875rem;
-
-  @media (min-width: 280px) {
-    width: 4.5rem;
-  }
+  max-width: 91px;
 `
 
 export const Title = styled.h1`
@@ -30,12 +28,10 @@ export const Title = styled.h1`
   line-height: 4.1875rem;
   color: ${({ theme }) => theme.colors.title};
 
-  @media (min-width: 280px) {
-    display: flex;
-    flex-direction: column;
-
-    font-size: 2rem;
-    line-height: initial;
+  @media (max-width: 425px) {
+    font-size: 2.125rem;
+    line-height: 3.1875rem;
+    text-align: center;
   }
 `
 
@@ -45,8 +41,10 @@ export const Price = styled.p`
   line-height: 3.3125rem;
   color: ${({ theme }) => theme.colors.title};
 
-  @media (min-width: 280px) {
+  @media (max-width: 425px) {
     font-size: 1.5rem;
+    line-height: 2.3125rem;
+    text-align: left;
   }
 `
 
@@ -60,7 +58,7 @@ export const Flex = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 922px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 `
@@ -98,12 +96,14 @@ export const CarColorImageContainer = styled.div`
   align-items: center;
   flex-shrink: 1;
 
-  @media (min-width: 280px) {
-    height: initial
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+    height: 20rem;
   }
 
-  @media (max-width: 900px) {
-    width: 100%;
+  @media (max-width: 425px) {
+    margin-top: 1rem;
+    height: 12rem;
   }
 `
 
@@ -117,11 +117,6 @@ export const Label = styled.div`
   text-align: center;
   align-self: flex-start;
   text-transform: capitalize;
-
-  @media (min-width: 280px) {
-    margin-top: -2rem;
-    margin-bottom: 1.4rem;
-  }
 `
 
 export const Numbering = styled.strong`
