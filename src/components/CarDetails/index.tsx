@@ -1,8 +1,8 @@
-import { CarsCarousel } from 'components/CarsCarousel'
 import { useEffect, useState } from 'react'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 
 import { api } from 'shared/services/api'
+import { Spinner, CarsCarousel } from '../'
 import { ICar } from 'shared/types'
 import * as S from './styles'
 

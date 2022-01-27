@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
-import { Header } from 'components/Header'
-import { MainContent } from 'components/MainContent'
+import { Header, MainContent } from 'components'
 import { AppRoutes } from 'routes/app.routes'
 
 export const App = () => {
@@ -9,10 +8,7 @@ export const App = () => {
 
   return (
     <>
-      <Header
-        menuIsOpen={menuIsOpen}
-        setMenuIsOpen={setMenuIsOpen}
-      />
+      <Header menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
       <MainContent menuIsOpen={menuIsOpen}>
         <AppRoutes />
       </MainContent>
