@@ -49,10 +49,10 @@ export const Catalog = () => {
         {cars.map((car) => (
           <CarCard key={car.id} car={car} />
         ))}
-        <S.ScrollTopButton onClick={handleScrollUp}>
-          <UpIcon />
-        </S.ScrollTopButton>
       </S.Content>
+      <S.ScrollTopButton onClick={handleScrollUp}>
+        <UpIcon />
+      </S.ScrollTopButton>
     </S.Container>
   )
 }
