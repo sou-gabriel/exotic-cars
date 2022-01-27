@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react'
 
-import { api } from 'services/api'
+import { api } from 'shared/services/api'
 
 import { ICar } from 'shared/types'
 
-import { CarCard } from 'components/CarCard'
-import { Spinner } from 'components/Spinner'
+import { CarCard, Spinner } from '../'
 import { ReactComponent as UpIcon } from 'assets/icons/up.svg'
 
 import * as S from './styles'
