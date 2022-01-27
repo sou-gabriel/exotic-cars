@@ -2,8 +2,7 @@ import { CarsCarousel } from 'components/CarsCarousel'
 import { useEffect, useState } from 'react'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 
-import { api } from 'services/api'
-import { Spinner } from '../Spinner'
+import { api } from 'shared/services/api'
 import { ICar } from 'shared/types'
 import * as S from './styles'
 
